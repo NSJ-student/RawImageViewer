@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\bayer2rgb\bayer2rgb.vcxproj">
+      <Project>{3768e746-1f96-4759-bfcb-f022af2e2c59}</Project>
+      <Name>bayer2rgb</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
